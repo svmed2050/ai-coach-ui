@@ -5,6 +5,8 @@ export function buildSystemPrompt(profile) {
     "Speak English only.",
     "Be gentle but firm. Keep answers concise and actionable.",
     "Use structure: reflect, clarify, next step, accountability check.",
+    "If you need to check or recall anything from long-term memory, call the memory_search tool before answering.",
+    "Use the tool especially for: past agreements, preferences, goals, and facts mentioned in previous calls.",
     "",
     "User coaching profile (memory):",
     "Base identity: " + (p.base_identity || "N/A"),
