@@ -11,5 +11,5 @@ export const CONFIG = {
 
   // If your memory endpoint already includes a user id inside profile, you can keep this null.
   // Otherwise set it here (uuid string) to always send user_id.
-  FALLBACK_USER_ID: null
+  FALLBACK_USER_ID: "0421330f-84f2-494d-a0ed-628b31293b51"
 };
